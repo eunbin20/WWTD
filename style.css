@@ -1,0 +1,30 @@
+body {
+  width: 880px;
+  margin: 0 auto;
+  /* text-align: center; */
+} 
+.header {
+  text-align: center;
+  height: 130px;
+}
+
+.container {
+  width: 100%;
+}
+select {
+  width: 100px;
+}
+.select-box {
+  display: inline-block;
+  width: 24%;
+  height: 200px;
+  border: 1px solid red;
+}
+
+.closet {
+
+  height: 200px;
+  display: inline-block;
+  width: 74%;
+  border: 1px solid black;
+}
