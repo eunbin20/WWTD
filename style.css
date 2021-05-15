@@ -8,6 +8,10 @@ body {
   height: 130px;
 }
 
+.header h1 {
+  padding-top: 50px;
+}
+
 .container {
   width: 100%;
 }
@@ -15,16 +19,29 @@ select {
   width: 100px;
 }
 .select-box {
-  display: inline-block;
-  width: 24%;
-  height: 200px;
-  border: 1px solid red;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 130px;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 25px;
+  background: rgb(175, 205, 218);
+}
+
+.select {
+  width: 120px;
+  height: 120px;
+  border: 1px solid black;
 }
 
 .closet {
-
   height: 200px;
   display: inline-block;
-  width: 74%;
+  width: 100%;
   border: 1px solid black;
 }
