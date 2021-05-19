@@ -49,8 +49,9 @@ select {
 }
 
 .closet {
+  overflow: scroll;
   display:flex;
-  height: 220px;
+  height: 240px;
   width: 100%;
   border: 1px solid black;
   margin-bottom: 30px;
@@ -58,12 +59,13 @@ select {
 
 .closet .cloth {
   text-align: center;
-  width: 200px;
-  margin: 10px;
+  width: 150px;
+  margin: 20px;
+  /* margin-left: 20px !important; */
 }
 
 .closet .cloth img {
-  width: 140px;
+  width: 150px;
   /* height: 150px; */
 }
 
