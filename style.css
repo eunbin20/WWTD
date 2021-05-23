@@ -66,12 +66,14 @@ select {
 
 .closet .cloth img {
   width: 150px;
-  /* height: 150px; */
+  height: 150px;
 }
 
 .closet .cloth h3 {
+  font-size: 12pt;
   margin: 0;
 }
 .closet .cloth p {
+  font-size: 10pt;
   margin: 0;
 }
